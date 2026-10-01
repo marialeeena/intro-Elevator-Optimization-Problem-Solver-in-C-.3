@@ -13,12 +13,15 @@ The project strictly avoids floating-point arithmetic, auxiliary string/array li
 
 ## Compilation & Execution
 
-To compile and run any specific method, link `lift.c` with the desired module header and source file. For example, to run the Dynamic Programming version:
+To compile and run any specific method, link `lift.c` with the desired module header and source file. For example:
 
 
 gcc -c lift.c
+
 gcc -c liftdp.c
+
 gcc -o liftdp lift.o liftdp.o
+
 ./liftdp
 
 
